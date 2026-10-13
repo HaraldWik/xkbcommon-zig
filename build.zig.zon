@@ -1,0 +1,25 @@
+.{
+    .name = .xkbcommon,
+    .version = "0.0.0",
+    .fingerprint = 0x68f445b00922e6be,
+    .minimum_zig_version = "0.17.0",
+    .dependencies = .{
+        .translate_c = .{
+            .url = "git+https://codeberg.org/ziglang/translate-c?ref=zig-0.17.x#f978dca0f2b2a782d06591989e80aae7c74d0183",
+            .hash = "translate_c-2.0.1-Q_BUWmVOBwDWdxpDb7n6-LpMznKteZvXbL_4r6DxB2_d",
+        },
+        .libxkbcommon = .{
+            .url = "git+https://github.com/xkbcommon/libxkbcommon#e6b9c1d784cf5485b3bd9647e2da8ad828b0e135",
+            .hash = "N-V-__8AALteiQAAFuOX6naKHhcAANx11ksBXv5hO701lv0d",
+        },
+        .libxml2 = .{
+            .url = "git+https://github.com/allyourcodebase/libxml2?ref=2.15.4#5df5e2832f9427aa3e587247fc9b1891549e8022",
+            .hash = "libxml2-2.15.4-qHdjhpxMAADyJXDdys1_4kXOxUgriHp-tJT4jofPuYa-",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}
