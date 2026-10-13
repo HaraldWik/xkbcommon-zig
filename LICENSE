@@ -1,0 +1,28 @@
+# Third-party software
+
+This project incorporates or derives from the following projects.
+
+## libxkbcommon
+
+Repository: https://github.com/xkbcommon/libxkbcommon
+
+License information:
+https://xkbcommon.org/doc/current/detailed-license.html
+
+The original copyright notices and applicable license terms are preserved
+in the vendored source files and accompanying license files.
+
+## libxml2
+
+Repository: https://github.com/allyourcodebase/libxml2
+
+Upstream project: https://gitlab.gnome.org/GNOME/libxml2
+
+Version: 2.15.4
+Commit: 5df5e2832f9427aa3e587247fc9b1891549e8022
+
+License information:
+https://gitlab.gnome.org/GNOME/libxml2/-/blob/master/Copyright
+
+The original copyright notices and applicable license terms are preserved
+in the vendored source files and accompanying license files.
